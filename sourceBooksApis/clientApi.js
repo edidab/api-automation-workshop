@@ -33,5 +33,5 @@ export async function createClient(clientName){
         nternalNotes: null
     };
 
-    return axios.post(clientCreateApi, clientData)
+    return axios.post(clientCreateApi, clientData, { validateStatus: false });
 }

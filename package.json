@@ -25,6 +25,11 @@
     "dotenv": "^8.2.0",
     "dotenv-flow": "^3.2.0",
     "esm": "^3.2.25",
-    "mocha": "^8.3.0"
+    "mocha": "^8.3.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "tedious": "^11.0.4"
   }
 }
